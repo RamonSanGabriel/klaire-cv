@@ -1,0 +1,23 @@
+.imageWrapper {
+  display: flex;
+}
+
+.imageContainer {
+  display: flex;
+  overflow: hidden;
+
+  & img {
+    width: 90%;
+    object-fit: cover;
+  }
+}
+
+.imageDetails {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+}
+.name {
+  font-size: 1.5rem;
+}
