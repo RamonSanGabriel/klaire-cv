@@ -1,9 +1,5 @@
 .summaryWrapper {
   margin: 1rem 0;
-  & h3 {
-    color: #646cff;
-    text-transform: uppercase;
-  }
 
   & li {
     list-style: disc;

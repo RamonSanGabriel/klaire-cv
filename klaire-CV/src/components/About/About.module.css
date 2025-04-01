@@ -1,11 +1,6 @@
 .aboutWrapper {
   margin: 1rem 0;
 
-  & h3 {
-    text-transform: uppercase;
-    color: #646cff;
-  }
-
   & p {
     text-align: justify;
     padding: 0 1rem;
