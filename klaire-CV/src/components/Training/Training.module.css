@@ -1,4 +1,4 @@
-.summaryWrapper {
+.trainingWrapper {
   margin: 1rem 0;
   & h3 {
     color: blueviolet;
@@ -11,9 +11,9 @@
   }
 }
 
-.summaryList {
+.trainingList {
   margin: 1rem 0;
 }
-.summaryItems {
+.trainingItems {
   /* padding: 0 0.5rem; */
 }
