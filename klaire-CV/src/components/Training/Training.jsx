@@ -7,9 +7,9 @@ const Training = () => {
       <ul className={css.trainingList}>
         <h3>Trained in Handling Aesthetic Equipment</h3>
         {training.map(({ id, training }) => (
-          <li key={id} className={css.trainingItem}>
-            {training}
-          </li>
+          <div className={css.trainingItems}>
+            <li key={id}>{training}</li>
+          </div>
         ))}
       </ul>
     </div>

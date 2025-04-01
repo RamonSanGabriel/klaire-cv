@@ -7,7 +7,8 @@
 
   & li {
     list-style: disc;
-    list-style-position: inside;
+    padding: 0 1rem;
+    /* list-style-position: inside; */
   }
 }
 
@@ -15,5 +16,5 @@
   margin: 1rem 0;
 }
 .summaryItems {
-  /* padding: 0 0.5rem; */
+  padding: 0 1rem;
 }
