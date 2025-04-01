@@ -1,9 +1,42 @@
-export const training = {
-  title: 'Trained in Handling Aesthetic Equipment',
-  training1: 'BTL Emsella incontince chair',
-  training2: 'BTL Lymphatic Suit',
-  training3: 'Sciton Heroic BBL & Maxi',
-  training4: 'Sciton ProFractional Laser',
-  training5: 'Virtue RF Microneedling',
-  training6: 'Virtue RF Microneedling',
-};
+export const training = [
+  {
+    id: 1,
+    training: 'BTL Emsella incontince chair',
+  },
+  {
+    id: 2,
+    training: 'BTL Lymphatic Suit',
+  },
+  {
+    id: 3,
+    training: 'Sciton Heroic BBL & Maxi',
+  },
+  {
+    id: 4,
+    training: 'Sciton ProFractional Laser',
+  },
+  {
+    id: 5,
+    training: 'Virtue RF Microneedling',
+  },
+  {
+    id: 6,
+    training: 'Alma Soprano Laser',
+  },
+  {
+    id: 7,
+    training: 'Aqua 3 Facial',
+  },
+  {
+    id: 8,
+    training: 'Visia Skin Analyzer',
+  },
+  {
+    id: 9,
+    training: 'Candela Gentlemax Pro Nd:YAG + Alexandrite Laser',
+  },
+  {
+    id: 10,
+    training: 'Hydrafacial',
+  },
+];
