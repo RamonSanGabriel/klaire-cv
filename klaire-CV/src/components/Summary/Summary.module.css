@@ -11,6 +11,9 @@
   }
 }
 
+.summaryList {
+  margin: 1rem 0;
+}
 .summaryItems {
   padding: 0 0.5rem;
 }

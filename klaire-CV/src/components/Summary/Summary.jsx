@@ -22,6 +22,7 @@ const Summary = () => {
           <li>{qualification5}</li>
         </div>
       </ul>
+      <hr />
     </div>
   );
 };
