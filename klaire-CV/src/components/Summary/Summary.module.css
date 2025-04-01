@@ -1,7 +1,7 @@
 .summaryWrapper {
   margin: 1rem 0;
   & h3 {
-    color: blueviolet;
+    color: #646cff;
     text-transform: uppercase;
   }
 
