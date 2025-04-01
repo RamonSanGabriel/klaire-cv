@@ -1,0 +1,16 @@
+.summaryWrapper {
+  margin: 1rem 0;
+  & h3 {
+    color: blueviolet;
+    text-transform: uppercase;
+  }
+
+  & li {
+    list-style: disc;
+    list-style-position: inside;
+  }
+}
+
+.summaryItems {
+  padding: 0 0.5rem;
+}
