@@ -1,0 +1,12 @@
+.aboutWrapper {
+  margin: 1rem 0;
+
+  & h3 {
+    text-transform: uppercase;
+    color: blueviolet;
+  }
+
+  & p {
+    text-align: justify;
+  }
+}
