@@ -13,7 +13,7 @@ const Header = () => {
         <div className={css.imageDetails}>
           <p className={css.name}>{name}</p>
           <p className={css.title}>{title}</p>
-          <address className={css.icons}>
+          <address>
             <ul className={css.iconList}>
               {iconDetails.map(({ id, name, icon, href }) => (
                 <li className={css.iconItems} key={id}>
