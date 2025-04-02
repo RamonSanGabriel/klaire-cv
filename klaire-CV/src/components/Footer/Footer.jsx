@@ -9,7 +9,7 @@ const Footer = () => {
           {footerIcons.map(({ id, name, icon, href }) => (
             <li className={css.iconItems} key={id}>
               <a href={href} target="_blank">
-                {icon}
+                {name}
               </a>
               {/* <p>{name}</p> */}
             </li>
