@@ -34,18 +34,18 @@ export const navIcons = [
     id: 2,
     link: 'About',
     icon: <FaMobileScreenButton />,
-    path: 'about',
+    path: '/about',
   },
   {
     id: 3,
     link: 'Work',
     icon: <MdEmail />,
-    path: 'work',
+    path: '/work',
   },
   {
     id: 4,
     link: 'CV',
     icon: <FaLinkedin />,
-    path: 'cv',
+    path: '/cv',
   },
 ];

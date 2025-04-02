@@ -25,9 +25,9 @@ function App() {
           <Route path="summary" element={<Summary />} />
           <Route path="training" element={<Training />} />
 
-          <Route path="about" element={<AboutPage />} />
-          <Route path="work" element={<WorkPage />} />
-          <Route path="cv" element={<CVPage />} />
+          <Route path="/about" element={<AboutPage />} />
+          <Route path="/work" element={<WorkPage />} />
+          <Route path="/cv" element={<CVPage />} />
         </Route>
       </Routes>
       {/* Header */}
