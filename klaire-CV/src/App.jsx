@@ -21,9 +21,9 @@ function App() {
       <Routes>
         <Route path="/" element={<SharedLayout />}>
           <Route index element={<HomePage />} />
-          <Route path="about" element={<About />} />
+          {/*  <Route path="about" element={<About />} />
           <Route path="summary" element={<Summary />} />
-          <Route path="training" element={<Training />} />
+          <Route path="training" element={<Training />} /> */}
 
           <Route path="/about" element={<AboutPage />} />
           <Route path="/work" element={<WorkPage />} />
