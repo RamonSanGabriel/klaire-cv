@@ -23,7 +23,7 @@ export const headerIcons = [
   },
 ];
 
-export const footerIcons = [
+export const navIcons = [
   {
     id: 1,
     link: 'Home',
