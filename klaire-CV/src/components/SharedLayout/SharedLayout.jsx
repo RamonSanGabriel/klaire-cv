@@ -10,11 +10,11 @@ import Footer from '../Footer/Footer';
 const SharedLayout = () => {
   return (
     <>
-      <Header />
+      {/* <Header /> */}
       <Suspense fallback={<Loader />}>
-        <About />
+        {/*   <About />
         <Summary />
-        <Training />
+        <Training /> */}
         <Outlet />
       </Suspense>
       <Footer />

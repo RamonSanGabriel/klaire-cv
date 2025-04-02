@@ -1,17 +1,15 @@
 import css from './Footer.module.css';
 import { footerIcons } from '../../data/icons';
+import { NavLink } from 'react-router-dom';
 
 const Footer = () => {
   return (
     <div className={css.footerWrapper}>
       <div className={css.footerContainer}>
         <ul className={css.iconList}>
-          {footerIcons.map(({ id, name, icon, href }) => (
+          {footerIcons.map(({ id, link, icon, path }) => (
             <li className={css.iconItems} key={id}>
-              <a href={href} target="_blank">
-                {name}
-              </a>
-              {/* <p>{name}</p> */}
+              <NavLink to={path}>{link}</NavLink>
             </li>
           ))}
         </ul>

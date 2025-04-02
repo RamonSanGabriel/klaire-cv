@@ -5,19 +5,19 @@ import { MdEmail } from 'react-icons/md';
 export const headerIcons = [
   {
     id: 1,
-    name: 'Mobile',
+    link: 'Mobile',
     icon: <FaMobileScreenButton />,
     path: 'tel:+353831324960',
   },
   {
     id: 2,
-    name: 'Email',
+    link: 'Email',
     icon: <MdEmail />,
     path: 'mailto:rese6486@gmail.com',
   },
   {
     id: 3,
-    name: 'LinkedIn',
+    link: 'LinkedIn',
     icon: <FaLinkedin />,
     path: 'https://www.linkedin.com/in/klaire-therese-sison-san-gabriel-2b254192/',
   },
@@ -26,25 +26,25 @@ export const headerIcons = [
 export const footerIcons = [
   {
     id: 1,
-    name: 'Home',
+    link: 'Home',
     icon: <FaHome />,
     path: '/',
   },
   {
     id: 2,
-    name: 'About',
+    link: 'About',
     icon: <FaMobileScreenButton />,
     path: '/about',
   },
   {
     id: 3,
-    name: 'Work',
+    link: 'Work',
     icon: <MdEmail />,
-    path: 'work',
+    path: '/work',
   },
   {
     id: 4,
-    name: 'CV',
+    link: 'CV',
     icon: <FaLinkedin />,
     path: '/cv',
   },
