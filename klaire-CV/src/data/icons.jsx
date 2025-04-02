@@ -7,19 +7,19 @@ export const headerIcons = [
     id: 1,
     link: 'Mobile',
     icon: <FaMobileScreenButton />,
-    path: 'tel:+353831324960',
+    href: 'tel:+353831324960',
   },
   {
     id: 2,
     link: 'Email',
     icon: <MdEmail />,
-    path: 'mailto:rese6486@gmail.com',
+    href: 'mailto:rese6486@gmail.com',
   },
   {
     id: 3,
     link: 'LinkedIn',
     icon: <FaLinkedin />,
-    path: 'https://www.linkedin.com/in/klaire-therese-sison-san-gabriel-2b254192/',
+    href: 'https://www.linkedin.com/in/klaire-therese-sison-san-gabriel-2b254192/',
   },
 ];
 
