@@ -20,6 +20,10 @@
 }
 .name {
   font-size: 1.5rem;
+  /* color: #d24fa0; */
+  color: rgb(167, 93, 235);
+  font-weight: bold;
+  /* color: rgb(146, 52, 234); */
 }
 
 .iconList {
