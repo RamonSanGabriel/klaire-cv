@@ -1,6 +1,6 @@
 import css from './Header.module.css';
 import { header } from '../../data/header';
-import { iconDetails } from '../../data/icons';
+import { headerIcons } from '../../data/icons';
 
 const Header = () => {
   const { name, title, image } = header;
@@ -13,21 +13,19 @@ const Header = () => {
         <div className={css.imageDetails}>
           <p className={css.name}>{name}</p>
           <p className={css.title}>{title}</p>
-          <address>
-            <ul className={css.iconList}>
-              {iconDetails.map(({ id, name, icon, href }) => (
-                <li className={css.iconItems} key={id}>
-                  <a href={href} target="_blank">
-                    {icon}
-                  </a>
-                  {/* <p>{name}</p> */}
-                </li>
-              ))}
-              <li></li>
-            </ul>
-          </address>
+          {/* <div className={css.iconsContainer}> */}
+          <ul className={css.iconList}>
+            {headerIcons.map(({ id, name, icon, href }) => (
+              <li className={css.iconItems} key={id}>
+                <a href={href} target="_blank">
+                  {icon}
+                </a>
+                {/* <p>{name}</p> */}
+              </li>
+            ))}
+          </ul>
+          {/* </div> */}
         </div>
-
         {/* Navbar */}
       </div>
     </>

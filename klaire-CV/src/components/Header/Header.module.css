@@ -17,26 +17,32 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
+  gap: 10px;
 }
 .name {
   font-size: 1.5rem;
   /* color: #d24fa0; */
   color: rgb(167, 93, 235);
   font-weight: bold;
-  /* color: rgb(146, 52, 234); */
 }
-
+.iconsContainer {
+  display: flex;
+  justify-content: space-between;
+}
 .iconList {
   display: flex;
-  gap: 10px;
-  align-items: flex-end;
+  gap: 40px;
+  align-items: center;
+
+  justify-content: space-between;
 }
 
 .iconItems {
-  display: flex;
-  justify-content: center;
-  padding: 0.5rem;
-
+  & a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
   & svg {
     width: 25px;
     height: 25px;

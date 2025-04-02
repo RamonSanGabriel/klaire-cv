@@ -5,6 +5,7 @@ import Loader from '../Loader/Loader';
 import About from '../About/About';
 import Summary from '../Summary/Summary';
 import Training from '../Training/Training';
+import Footer from '../Footer/Footer';
 
 const SharedLayout = () => {
   return (
@@ -16,6 +17,7 @@ const SharedLayout = () => {
         <Training />
         <Outlet />
       </Suspense>
+      <Footer />
     </>
   );
 };
