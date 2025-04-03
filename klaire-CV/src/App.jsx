@@ -1,5 +1,5 @@
 import './App.css';
-import { lazy } from 'react';
+import { lazy, useEffect } from 'react';
 
 import SharedLayout from './components/SharedLayout/SharedLayout';
 import { Routes, Route } from 'react-router-dom';
@@ -16,6 +16,9 @@ const WorkPage = lazy(() => import('./pages/WorkPage/WorkPage'));
 const CVPage = lazy(() => import('./pages/CVPage/CVPage'));
 
 function App() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  });
   return (
     <>
       <Routes>
