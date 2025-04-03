@@ -6,6 +6,7 @@ const Work = () => {
     <>
       <section>
         <ul>
+          <h1 className={css.header}></h1>
           {work.map(
             ({
               id,

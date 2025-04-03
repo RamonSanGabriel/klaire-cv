@@ -47,7 +47,11 @@ ol,
 ul {
   list-style: none;
 }
-h1,
+h1 {
+  color: hsl(271, 78%, 64%);
+  font-weight: 400;
+  text-transform: uppercase;
+}
 h2,
 h3,
 h4,
