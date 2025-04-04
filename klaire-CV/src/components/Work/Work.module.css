@@ -20,10 +20,11 @@
   font-size: 0.75rem;
 }
 .workListItemContainer {
-  padding: 1rem 0;
+  padding: 1rem 1rem;
 }
 .workListItem {
   display: list-item;
   list-style-type: disc;
+  /* list-style-position: inside; */
   margin: 0 0.5rem;
 }
