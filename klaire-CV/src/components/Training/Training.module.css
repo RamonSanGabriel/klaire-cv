@@ -2,9 +2,8 @@
   margin: 1rem 0 3rem;
 
   & li {
-    padding: 0 1rem;
     list-style: disc;
-    /* list-style-position: inside; */
+    margin: 0 0.5rem;
   }
 }
 
