@@ -19,6 +19,9 @@
 .location {
   font-size: 0.75rem;
 }
+.workListItemContainer {
+  margin: 1rem 0;
+}
 .workListItem {
   display: list-item;
   list-style-type: disc;
