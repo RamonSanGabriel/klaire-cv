@@ -173,9 +173,24 @@ export const work7 = [
     tasks2:
       'Implemented the Philippines department of health programs such as expanded program for immunization, providing family planning counseling, national tuberculosis program (DOTS), prenatal and postnatal care etc.',
     tasks3:
-      'Provided primary care to patients in the community by assessing clients, giving first aid, carry out doctor’s order such as administering oral and injectable medications to both adult and infant, collecting vaginal or cervical swabs, wound cleaning and referring them when they need tertiary or specialized care to specialty hospitals.',
+      // prettier-ignore
+      "Provided primary care to patients in the community by assessing clients, giving first aid, carry out doctor's order such as administering oral and injectable medications to both adult and infant, collecting vaginal or cervical swabs, wound cleaning and referring them when they need tertiary or specialized care to specialty hospitals.",
     tasks4:
       'Assisted the OB-sonographer and prepare clients for ultrasound (pelvic, trans-vaginal and rectal)',
     tasks5: 'Performed and operated ECG Machine.',
+  },
+];
+export const work8 = [
+  {
+    id: 8,
+    position: 'Customer Care Representative',
+    company: 'Maxicare Healthcare Corporation',
+    duration: 'Jun 2008-Sep 2008',
+    location: 'Manila, Philippines',
+    tasks1:
+      'Efficient Handling of Telephone enquiries as a customer Care Representative',
+    tasks2: 'Resolve Complaints and escalate call to the supervisor if needed',
+    tasks3: 'Facilitate appropriate client referral to hospitals and clinics',
+    tasks4: 'Facilitate clients availment (grants coverage and non-coverage)',
   },
 ];
