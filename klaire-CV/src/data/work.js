@@ -65,7 +65,7 @@ export const work3 = [
     id: 3,
     position: 'Aesthetic Laser Therapy Nurse Dubai Health Authority Licensed',
     company: 'Al Zahra Aesthetics',
-    duration: 'Apr 2017-Feb 2018 Dubai, U.A.E',
+    duration: 'Apr 2017-Feb 2018',
     location: 'Dubai, U.A.E',
     tasks1:
       'Welcome clients and assess their conditions and assist them to doctors clinic',
@@ -77,5 +77,27 @@ export const work3 = [
     tasks4:
       'Trained in aesthetic equipment such as: Nd:YAG, Alexandrite, Er:YAG, Q-Switched Nd:YAG, CO2 and Fraxel dual laser, Cool Sculpting,Regen Lab PRP, Thermage mono polar radio frequency, Silk peel dermal infusion, Viora Radio Frequency for acne scars (V Touch) and body contouring (Reaction), Derma pen micro needling etc.',
     tasks5: 'Provided instructions to client before and after procedures.',
+  },
+];
+
+export const work4 = [
+  {
+    id: 4,
+    position: 'OPD Staff Nurse DHA Licensed',
+    company: 'Al Zahra Private Hospital',
+    duration: 'Jun 2014-Apr 2017',
+    location: 'Dubai, U.A.E',
+    tasks1:
+      'Assessed and records relevant details from the patient such as vital signs, objective and subjective complaints, health history etc.',
+    tasks2:
+      // prettier-ignore
+      "Assisted in the Family Medicine and Endocrine Clinic and carry out doctor's order. Offered adult and pediatric vaccinations.",
+    tasks3:
+      'Performed diagnostic test such as: hypo count check, urine dipstick, strep A rapid test, pregnancy test, ovulation test, mantoux test etc.',
+    tasks4:
+      'Instructed patients in taking medication, proper collection of specimens such as urine, semen, stool samples, use of insulin, etc.',
+    tasks5: 'Handled ECG Machine.',
+    // prettier-ignore
+    tasks6: "Made appointments, follow-up on patient, or perform other clerical duties in doctors' office or clinics.",
   },
 ];
