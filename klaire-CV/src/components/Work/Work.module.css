@@ -20,7 +20,7 @@
   font-size: 0.75rem;
 }
 .workListItemContainer {
-  margin: 1rem 0;
+  padding: 1rem 0;
 }
 .workListItem {
   display: list-item;
