@@ -1,4 +1,5 @@
 import { useEffect } from 'react';
+import AboutMe from '../../components/AboutMe/AboutMe';
 
 const AboutPage = () => {
   useEffect(() => {
@@ -7,6 +8,7 @@ const AboutPage = () => {
   return (
     <div>
       <h1>About Page</h1>
+      <AboutMe />
     </div>
   );
 };
