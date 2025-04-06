@@ -13,16 +13,34 @@ export const education = {
     'Graduate Certificate of Cosmetic Laser and Light Therapist, Institute of Medical Aesthetics, U.A.E (2015)',
 };
 
-export const skills = {
-  titleSkill: 'Skills',
-  skills: 'Cosmetic Laser and Light Therapist',
-  skill2: 'Aesthetic Nurse Specialist',
-  skills: 'Public Health Nurse',
-  skill4:  'Staff Nurse',
- skill5: 'Medical Aesthetician',
-  skill6: 'Laser Hair Removal',
- jjf 'Chemical Peeling',
-};
+export const skills = [
+  {
+    id: 1,
+    skill: 'Proficient in Computer',
+    desc: 'skills for software systems applications such as MS Word, MS Excel, MS Outlook and MS PowerPoint.',
+  },
+  {
+    id: 2,
+    skill: 'Good Communication',
+    desc: 'fluent in English and Tagalog and adaptive to different kinds of culture',
+  },
+  {
+    id: 3,
+    skill: 'Dependability',
+    desc: 'to complete assigned tasks on time and with minimal supervision.',
+  },
+  {
+    id: 4,
+    skill: 'Listening',
+    desc: 'skills to follow verbal instructions for tasks that need completion.',
+  },
+  {
+    id: 5,
+    skill: 'Well organize',
+    desc: 'efficient in multi-tasking in a dynamic environment.',
+  },
+];
+
 export const certificate = {
   titleCert: 'Certifications',
   certificate1:

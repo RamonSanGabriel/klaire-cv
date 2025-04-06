@@ -3,7 +3,6 @@ import css from './AboutMe.module.css';
 
 const AboutMe = () => {
   const { title, school, degree, year } = education;
-  const { titleSkill, skills } = skill;
   const { titleCert, certificate1 } = certificate;
   return (
     <>
@@ -22,11 +21,13 @@ const AboutMe = () => {
           </li>
         </ul>
         <ul className={css.aboutMeList}>
-          <h3>{titleSkill}</h3>
-          <li className={css.listItem}>
-            <p>Skills:</p>
-            <span>{skill}</span>
-          </li>
+          <h3>Skills</h3>
+          {skills.map(({ id, skill, desc }) => (
+            <li className={css.listItem} key={id}>
+              <p>{skill}</p>
+              <span>{desc}</span>
+            </li>
+          ))}
         </ul>
         <ul className={css.aboutMeList}>
           <h3>{titleCert}</h3>
