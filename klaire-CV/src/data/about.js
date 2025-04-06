@@ -16,28 +16,28 @@ export const education = {
 export const skills = [
   {
     id: 1,
-    skill: 'Proficient in Computer',
-    desc: 'skills for software systems applications such as MS Word, MS Excel, MS Outlook and MS PowerPoint.',
+    skill: 'Adept in Technology',
+    desc: 'Proficiency in software systems applications, such as Microsoft Word, Microsoft Excel, Microsoft Outlook, and Microsoft PowerPoint.',
   },
   {
     id: 2,
     skill: 'Good Communication',
-    desc: 'fluent in English and Tagalog and adaptive to different kinds of culture',
+    desc: 'Demonstrates exceptional clarity and conciseness in conveying information, actively listening with a deep understanding of the subject matter.',
   },
   {
     id: 3,
     skill: 'Dependability',
-    desc: 'to complete assigned tasks on time and with minimal supervision.',
+    desc: 'To accomplish assigned tasks punctually and with minimal supervision.',
   },
   {
     id: 4,
     skill: 'Listening',
-    desc: 'skills to follow verbal instructions for tasks that need completion.',
+    desc: 'Ability to follow verbal instructions for task completion.',
   },
   {
     id: 5,
     skill: 'Well organize',
-    desc: 'efficient in multi-tasking in a dynamic environment.',
+    desc: 'Provide exceptional efficiency in multitasking within a dynamic and ever-changing environment.',
   },
 ];
 
