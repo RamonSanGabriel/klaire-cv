@@ -5,6 +5,7 @@ import SharedLayout from './components/SharedLayout/SharedLayout';
 import { Routes, Route } from 'react-router-dom';
 
 /* Components */
+const Button = lazy(() => import('./components/Button/Button'));
 const About = lazy(() => import('./components/About/About'));
 const Summary = lazy(() => import('./components/Summary/Summary'));
 const Training = lazy(() => import('./components/Training/Training'));
@@ -30,7 +31,9 @@ function App() {
 
           <Route path="/about" element={<AboutPage />} />
           <Route path="/work" element={<WorkPage />} />
-          <Route path="/cv" element={<CVPage />} />
+          <Route path="/cv" element={<CVPage />}>
+            <Route path="print" element={<Button />} />
+          </Route>
         </Route>
       </Routes>
       {/* Header */}
