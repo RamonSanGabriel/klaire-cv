@@ -6,7 +6,7 @@ const AboutMe = () => {
   const { titleCert, certificate1 } = certificate;
   return (
     <>
-      <section>
+      <section className={css.aboutSection}>
         <ul className={css.aboutMeList}>
           <h3>{title}</h3>
 
