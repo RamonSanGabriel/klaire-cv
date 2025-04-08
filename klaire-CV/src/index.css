@@ -9,6 +9,8 @@
   --PRIMARY-FONT: rgba(255, 255, 255, 0.87);
   --HYPER-LINK: rgb(208, 173, 240);
   --HOVER-LINK: rgb(208, 148, 234, 0.7);
+  --BLACK-FONT: rgba(0, 0, 0, 0.776);
+  --GREY-FONT: rgb(226, 226, 226);
 
   font-family: Roboto, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;

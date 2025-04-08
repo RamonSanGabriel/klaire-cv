@@ -23,6 +23,33 @@ export const headerIcons = [
   },
 ];
 
+export const cvIcons = [
+  {
+    id: 1,
+    link: 'Home',
+    icon: <FaHome />,
+    href: 'Manila, Philippines',
+  },
+  {
+    id: 2,
+    link: 'Mobile',
+    icon: <FaMobileScreenButton />,
+    href: '+353831324960',
+  },
+  {
+    id: 3,
+    link: 'Email',
+    icon: <MdEmail />,
+    href: 'rese6486@gmail.com',
+  },
+  {
+    id: 4,
+    link: 'LinkedIn',
+    icon: <FaLinkedin />,
+    href: 'https://www.linkedin.com/in/klaire-therese-sison-san-gabriel-2b254192/',
+  },
+];
+
 export const navIcons = [
   {
     id: 1,

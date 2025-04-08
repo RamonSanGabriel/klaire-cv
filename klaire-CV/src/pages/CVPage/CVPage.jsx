@@ -1,10 +1,10 @@
 import css from './CVPage.module.css';
 import { useEffect, useRef } from 'react';
-import Button from '../../components/Button/Button';
-import Header from '../../components/Header/Header';
+import About from '../../components/About/About';
 import { useReactToPrint } from 'react-to-print';
 import { printBtn } from '../../data/cv';
 import { header } from '../../data/header';
+import { cvIcons } from '../../data/icons';
 
 const CVPage = () => {
   const contentRef = useRef();
@@ -24,13 +24,21 @@ const CVPage = () => {
         <header>
           <h1>{name}</h1>
           <h2>{title}</h2>
-          <p>Manila, Phlippines</p>
-          <address>
-            <p>Mobile number</p>
-            <p>rese6486@gmail.com</p>
+          <address className={css.cvAddress}>
+            <ul className={css.cvList}>
+              {cvIcons.map(({ id, link, icon, href }) => (
+                <li key={id}>
+                  <p>
+                    <span>{icon}</span>
+                    {href}
+                  </p>
+                </li>
+              ))}
+            </ul>
+            <img src={image} />
           </address>
-          <img src={image} />
         </header>
+        <About />
       </div>
     </>
   );
