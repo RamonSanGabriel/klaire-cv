@@ -1,6 +1,7 @@
 .cvWrapper {
   padding: 1rem;
   max-width: 1024px;
+  min-width: 768px;
   background-color: #fff;
   color: var(--BLACK-FONT);
   font-family: Didact, system-ui, Avenir, Helvetica, Arial, sans-serif;
