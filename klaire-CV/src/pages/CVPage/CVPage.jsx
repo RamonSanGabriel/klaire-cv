@@ -5,6 +5,7 @@ import { useReactToPrint } from 'react-to-print';
 import { printBtn } from '../../data/cv';
 import { header } from '../../data/header';
 import { cvIcons } from '../../data/icons';
+import { about, aboutCV } from '../../data/about';
 
 const CVPage = () => {
   const contentRef = useRef();
@@ -12,6 +13,7 @@ const CVPage = () => {
   const handlePrint = useReactToPrint({ contentRef });
   const { print } = printBtn;
   const { name, title, image } = header;
+  const { cvtitle, cvdescription } = aboutCV;
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -38,7 +40,11 @@ const CVPage = () => {
             <img src={image} />
           </address>
         </header>
-        <About />
+        <div className={css.cvaboutWrapper}>
+          <h3 className={css.cvtitle}>{cvtitle}</h3>
+          <p className={cvdescription}>{cvdescription}</p>
+        </div>
+        <hr />
       </div>
     </>
   );
