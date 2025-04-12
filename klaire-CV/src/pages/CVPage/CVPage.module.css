@@ -7,13 +7,16 @@
   font-family: Didact, system-ui, Avenir, Helvetica, Arial, sans-serif;
   margin: 0 auto;
 
+  & li {
+    list-style-type: disc;
+  }
   & h1 {
-    font-size: 0.875rem;
+    /* font-size: 0.875rem; */
     font-weight: 700;
   }
 
   & h2 {
-    font-size: 0.75rem;
+    /* font-size: 0.75rem; */
     font-weight: 700;
     color: var(--GREY-FONT);
   }
@@ -24,16 +27,15 @@
   }
 
   & p {
-    font-size: 0.6255rem;
-  }
-
-  & img {
-    width: 100%;
-    height: 90px;
-    object-fit: contain;
+    font-size: 0.625rem;
   }
 }
 
+.headerList {
+  display: flex;
+  gap: 40px;
+  padding: 0 1rem;
+}
 .cvAddress {
   display: grid;
   grid-template-columns: 2fr 1fr;
@@ -43,14 +45,19 @@
 .cvList {
   margin: 1rem 0;
 }
-.cvaboutWrapper {
+.cvProfessionalWrapper {
   margin: 1rem 0;
 }
-.cvtitle {
-  font-size: 0.75rem;
+.profTitle {
+  border-bottom: 1px solid #000;
+  margin-bottom: 0.25rem;
 }
 
-.cvdescription {
+.profDescription {
   text-align: justify;
-  font-size: 0.625rem;
+  /* font-size: 0.625rem; */
+}
+
+.sumList {
+  padding: 0 1rem;
 }

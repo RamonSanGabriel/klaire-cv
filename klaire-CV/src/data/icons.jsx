@@ -23,7 +23,7 @@ export const headerIcons = [
   },
 ];
 
-export const cvIcons = [
+/* export const cvIcons = [
   {
     id: 1,
     link: 'Home',
@@ -48,7 +48,7 @@ export const cvIcons = [
     icon: <FaLinkedin />,
     href: 'https://www.linkedin.com/in/klaire-therese-sison-san-gabriel-2b254192/',
   },
-];
+]; */
 
 export const navIcons = [
   {
