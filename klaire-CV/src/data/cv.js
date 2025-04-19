@@ -23,3 +23,14 @@ export const summaryQualification = {
   sumList5:
     'Certified Aesthetic Laser Operator - National Council on Laser Certification',
 };
+export const employmentHistory = {
+  empTitle: 'Employment History',
+};
+export const employment1 = {
+  employment1Title: 'Registered General Nurse',
+  employment1Duration: 'Jan 2024 - Present',
+  employment1Company: 'FILO Laser & Aesthetic Clinic ',
+  employment1Location: 'Cork, Ireland',
+  employment1Desc:
+    'Conduct comprehensive skin assessments, enhancing patient care and treatment outcomes.',
+};
