@@ -33,4 +33,12 @@ export const employment1 = {
   employment1Location: 'Cork, Ireland',
   employment1Desc:
     'Conduct comprehensive skin assessments, enhancing patient care and treatment outcomes.',
+  employment2Desc:
+    'Conduct comprehensive skin assessments, enhancing patient care and treatment outcomes.',
+  employment3Desc:
+    'Conduct comprehensive skin assessments, enhancing patient care and treatment outcomes.',
+  employment4Desc:
+    'Conduct comprehensive skin assessments, enhancing patient care and treatment outcomes.',
+  employment5Desc:
+    'Conduct comprehensive skin assessments, enhancing patient care and treatment outcomes.',
 };

@@ -23,9 +23,13 @@ const CVPage = () => {
   const {
     employment1Title,
     employment1Duration,
-    employment1Desc,
     employment1Company,
     employment1Location,
+    employment1Desc,
+    employment2Desc,
+    employment3Desc,
+    employment4Desc,
+    employment5Desc,
   } = employment1;
 
   useEffect(() => {
@@ -49,6 +53,7 @@ const CVPage = () => {
           <h3 className={css.title}>{profTitle}</h3>
           <p className={css.description}>{profDescription}</p>
         </section>
+
         <section className={css.summaryQualification}>
           <h3 className={css.title}>{summaryTitle}</h3>
           <ul className={css.sumList}>
@@ -69,6 +74,7 @@ const CVPage = () => {
             </li>
           </ul>
         </section>
+
         <section className={css.employmentSection}>
           <h3 className={css.title}>{empTitle}</h3>
           <div className={css.employment1Container}>
@@ -82,20 +88,45 @@ const CVPage = () => {
               <p className={css.description}>{employment1Desc}</p>
             </li>
             <li>
-              <p className={css.description}>{sumList2}</p>
+              <p className={css.description}>{employment2Desc}</p>
             </li>
             <li>
-              <p className={css.description}>{sumList3}</p>
+              <p className={css.description}>{employment3Desc}</p>
             </li>
             <li>
-              <p className={css.description}>{sumList4}</p>
+              <p className={css.description}>{employment4Desc}</p>
+            </li>
+            <li>
+              <p className={css.description}>{employment5Desc}</p>
+            </li>
+          </ul>
+        </section>
+
+        <section className={css.employmentSection}>
+          <div className={css.employment1Container}>
+            <h4 className={css.employmentTitle}>{employment1Title}</h4>
+            <h4>{employment1Duration}</h4>
+            <h4>{employment1Company}</h4>
+            <h4>{employment1Location}</h4>
+          </div>
+          <ul className={css.sumList}>
+            <li>
+              <p className={css.description}>{employment1Desc}</p>
+            </li>
+            <li>
+              <p className={css.description}>{employment2Desc}</p>
+            </li>
+            <li>
+              <p className={css.description}>{employment3Desc}</p>
+            </li>
+            <li>
+              <p className={css.description}>{employment4Desc}</p>
             </li>
             <li>
               <p className={css.description}>{sumList5}</p>
             </li>
           </ul>
         </section>
-        {/* <hr /> */}
       </div>
     </>
   );
