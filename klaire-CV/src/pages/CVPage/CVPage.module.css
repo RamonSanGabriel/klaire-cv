@@ -20,14 +20,17 @@
     font-weight: 700;
     color: var(--GREY-FONT);
   }
-
+  & h4 {
+    color: var(--BLACK-FONT);
+    font-weight: 700;
+  }
   & span {
     color: var(--GREY-FONT);
     margin-right: 30px;
   }
 
   & p {
-    font-size: 0.625rem;
+    font-size: 0.875rem;
   }
 }
 
@@ -67,7 +70,7 @@
 
 .employmentTitle {
 }
-.employment1Container {
+.employmentContainer {
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-content: space-between;

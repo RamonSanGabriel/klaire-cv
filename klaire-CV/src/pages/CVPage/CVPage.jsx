@@ -4,6 +4,7 @@ import { useEffect, useRef } from 'react';
 import { useReactToPrint } from 'react-to-print';
 import {
   employment1,
+  employment2,
   employmentHistory,
   headerCV,
   printBtn,
@@ -25,12 +26,25 @@ const CVPage = () => {
     employment1Duration,
     employment1Company,
     employment1Location,
-    employment1Desc,
-    employment2Desc,
-    employment3Desc,
-    employment4Desc,
-    employment5Desc,
+    employment1Desc1,
+    employment1Desc2,
+    employment1Desc3,
+    employment1Desc4,
+    employment1Desc5,
+    employment1Desc6,
   } = employment1;
+
+  const {
+    employment2Title,
+    employment2Duration,
+    employment2Company,
+    employment2Location,
+    employment2Desc1,
+    employment2Desc2,
+    employment2Desc3,
+    employment2Desc4,
+    employment2Desc5,
+  } = employment2;
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -77,7 +91,7 @@ const CVPage = () => {
 
         <section className={css.employmentSection}>
           <h3 className={css.title}>{empTitle}</h3>
-          <div className={css.employment1Container}>
+          <div className={css.employmentContainer}>
             <h4 className={css.employmentTitle}>{employment1Title}</h4>
             <h4>{employment1Duration}</h4>
             <h4>{employment1Company}</h4>
@@ -85,45 +99,48 @@ const CVPage = () => {
           </div>
           <ul className={css.sumList}>
             <li>
-              <p className={css.description}>{employment1Desc}</p>
+              <p className={css.description}>{employment1Desc1}</p>
             </li>
             <li>
-              <p className={css.description}>{employment2Desc}</p>
+              <p className={css.description}>{employment1Desc2}</p>
             </li>
             <li>
-              <p className={css.description}>{employment3Desc}</p>
+              <p className={css.description}>{employment1Desc3}</p>
             </li>
             <li>
-              <p className={css.description}>{employment4Desc}</p>
+              <p className={css.description}>{employment1Desc4}</p>
             </li>
             <li>
-              <p className={css.description}>{employment5Desc}</p>
+              <p className={css.description}>{employment1Desc5}</p>
+            </li>
+            <li>
+              <p className={css.description}>{employment1Desc6}</p>
             </li>
           </ul>
         </section>
 
         <section className={css.employmentSection}>
-          <div className={css.employment1Container}>
-            <h4 className={css.employmentTitle}>{employment1Title}</h4>
-            <h4>{employment1Duration}</h4>
-            <h4>{employment1Company}</h4>
-            <h4>{employment1Location}</h4>
+          <div className={css.employmentContainer}>
+            <h4 className={css.employmentTitle}>{employment2Title}</h4>
+            <h4>{employment2Duration}</h4>
+            <h4>{employment2Company}</h4>
+            <h4>{employment2Location}</h4>
           </div>
           <ul className={css.sumList}>
             <li>
-              <p className={css.description}>{employment1Desc}</p>
+              <p className={css.description}>{employment2Desc1}</p>
             </li>
             <li>
-              <p className={css.description}>{employment2Desc}</p>
+              <p className={css.description}>{employment2Desc2}</p>
             </li>
             <li>
-              <p className={css.description}>{employment3Desc}</p>
+              <p className={css.description}>{employment2Desc3}</p>
             </li>
             <li>
-              <p className={css.description}>{employment4Desc}</p>
+              <p className={css.description}>{employment2Desc4}</p>
             </li>
             <li>
-              <p className={css.description}>{sumList5}</p>
+              <p className={css.description}>{employment2Desc5}</p>
             </li>
           </ul>
         </section>
