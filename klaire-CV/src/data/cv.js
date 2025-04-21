@@ -61,3 +61,20 @@ export const employment2 = {
   employment2Desc5:
     'Maintain accurate health records, ensuring timely updates for effective health management.',
 };
+
+export const employment3 = {
+  employment3Title: 'Public Health Nurse',
+  employment3Duration: 'Mar 2021 - Dec 2022',
+  employment3Company: 'City Government Makati',
+  employment3Location: 'Makati, Philippines',
+  employment3Desc1:
+    'Deliver public health nursing services, focusing on immunizations for community health.',
+  employment3Desc2:
+    'Lead vaccination sites, ensuring the accurate and safe administration of vaccines.',
+  employment3Desc3:
+    'Manage vaccine inventory and maintain optimal storage conditions.',
+  employment3Desc4:
+    'Lead comprehensive immunization programs across multiple sites, overseeing vaccine administration protocols and ensuring proper storage conditions for Pfizer, Moderna and other COVID-19 vaccines.',
+  employment3Desc5:
+    'Facilitate preceptorship programs and provide comprehensive patient education on the effects of vaccine, contributing to enhance community health awareness.',
+};

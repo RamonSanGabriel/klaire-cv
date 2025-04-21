@@ -5,11 +5,15 @@ import { useReactToPrint } from 'react-to-print';
 import {
   employment1,
   employment2,
+  employment3,
   employmentHistory,
   headerCV,
   printBtn,
 } from '../../data/cv';
 import { professionalCV, summaryQualification } from '../../data/cv';
+import Employment1 from '../../components/Employment/Employment1/Employment1';
+import Employment2 from '../../components/Employment/Employment2/Employment2';
+import Employment3 from '../../components/Employment/Employment3/Employment3';
 
 const CVPage = () => {
   const contentRef = useRef();
@@ -20,31 +24,6 @@ const CVPage = () => {
   const { profTitle, profDescription } = professionalCV;
   const { summaryTitle, sumList1, sumList2, sumList3, sumList4, sumList5 } =
     summaryQualification;
-  const { empTitle } = employmentHistory;
-  const {
-    employment1Title,
-    employment1Duration,
-    employment1Company,
-    employment1Location,
-    employment1Desc1,
-    employment1Desc2,
-    employment1Desc3,
-    employment1Desc4,
-    employment1Desc5,
-    employment1Desc6,
-  } = employment1;
-
-  const {
-    employment2Title,
-    employment2Duration,
-    employment2Company,
-    employment2Location,
-    employment2Desc1,
-    employment2Desc2,
-    employment2Desc3,
-    employment2Desc4,
-    employment2Desc5,
-  } = employment2;
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -88,62 +67,9 @@ const CVPage = () => {
             </li>
           </ul>
         </section>
-
-        <section className={css.employmentSection}>
-          <h3 className={css.title}>{empTitle}</h3>
-          <div className={css.employmentContainer}>
-            <h4 className={css.employmentTitle}>{employment1Title}</h4>
-            <h4>{employment1Duration}</h4>
-            <h4>{employment1Company}</h4>
-            <h4>{employment1Location}</h4>
-          </div>
-          <ul className={css.sumList}>
-            <li>
-              <p className={css.description}>{employment1Desc1}</p>
-            </li>
-            <li>
-              <p className={css.description}>{employment1Desc2}</p>
-            </li>
-            <li>
-              <p className={css.description}>{employment1Desc3}</p>
-            </li>
-            <li>
-              <p className={css.description}>{employment1Desc4}</p>
-            </li>
-            <li>
-              <p className={css.description}>{employment1Desc5}</p>
-            </li>
-            <li>
-              <p className={css.description}>{employment1Desc6}</p>
-            </li>
-          </ul>
-        </section>
-
-        <section className={css.employmentSection}>
-          <div className={css.employmentContainer}>
-            <h4 className={css.employmentTitle}>{employment2Title}</h4>
-            <h4>{employment2Duration}</h4>
-            <h4>{employment2Company}</h4>
-            <h4>{employment2Location}</h4>
-          </div>
-          <ul className={css.sumList}>
-            <li>
-              <p className={css.description}>{employment2Desc1}</p>
-            </li>
-            <li>
-              <p className={css.description}>{employment2Desc2}</p>
-            </li>
-            <li>
-              <p className={css.description}>{employment2Desc3}</p>
-            </li>
-            <li>
-              <p className={css.description}>{employment2Desc4}</p>
-            </li>
-            <li>
-              <p className={css.description}>{employment2Desc5}</p>
-            </li>
-          </ul>
-        </section>
+        <Employment1 />
+        <Employment2 />
+        <Employment3 />
       </div>
     </>
   );

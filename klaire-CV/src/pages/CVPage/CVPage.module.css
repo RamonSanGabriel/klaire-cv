@@ -68,8 +68,6 @@
   padding: 0 1rem;
 }
 
-.employmentTitle {
-}
 .employmentContainer {
   display: grid;
   grid-template-columns: 1fr 1fr;

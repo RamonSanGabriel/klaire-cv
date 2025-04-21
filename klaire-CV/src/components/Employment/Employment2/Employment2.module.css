@@ -1,0 +1,23 @@
+.employmentContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+
+  & h4 {
+    text-transform: capitalize;
+  }
+}
+.title {
+  border-bottom: 1px double #000;
+  margin-bottom: 0.25rem;
+}
+.description {
+  text-align: justify;
+  /* font-size: 0.625rem; */
+}
+.sumList {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  padding: 0 1rem;
+}
