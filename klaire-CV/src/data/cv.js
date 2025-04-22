@@ -78,3 +78,49 @@ export const employment3 = {
   employment3Desc5:
     'Facilitate preceptorship programs and provide comprehensive patient education on the effects of vaccine, contributing to enhance community health awareness.',
 };
+
+export const employment4 = {
+  employment4Title: 'Staff Nurse',
+  employment4Duration: 'Apr 2018 - Nov 2023',
+  employment4Company: 'Dr. Sulaiman Al Habib Medical Group',
+  employment4Location: 'Dubai, U.A.E.',
+  employment4Desc1:
+    'Conduct initial skin assessments, improving treatment accuracy and client trust.',
+  employment4Desc2:
+    'Assist in invasive procedures, boosting procedural efficiency and patient care.',
+  employment4Desc3:
+    'Upsell treatment packages, contributing to revenue growth and client engagement.',
+  employment4Desc4:
+    'Perform advanced aesthetic procedures including laser treatments, skin rejuvenation and body contouring while maintaining strict safety protocols and client care standards.',
+};
+
+export const employment5 = {
+  employment5Title: 'Staff Nurse',
+  employment5Duration: 'Jun 2014 - Feb 2018',
+  employment5Company: 'Al Zahra Private Hospital',
+  employment5Location: 'Dubai, U.A.E.',
+  employment5Desc1:
+    'Accommodate clients, assessed conditions, facilitated doctor consultations.',
+  employment5Desc2:
+    'Prepare consent forms, treatment rooms and equipment for procedures.',
+  employment5Desc3:
+    'Train in advanced aesthetic equipment, enhancing service quality.',
+  employment5Desc4:
+    'Coordinate comprehensive aesthetic medical procedures, including laser treatments, dermal fillers and PRP therapy while ensuring strict adherence to safety protocols.',
+  employment5Desc5:
+    'Manage pre and post-procedure patient care, including documentation, consent forms and clinical photography while operating specialized aesthetic equipment.',
+  employment5Desc6:
+    'Operate advanced aesthetic technologies including Nd:YAG, CO2 and Fraxel lasers, ensuring optimal treatment outcomes and patient satisfaction.',
+  employment5Desc7:
+    'Assist physicians in specialized procedures including botulinum toxin administration, thread lifting and radio frequency treatments.',
+  employment5Desc8:
+    'Record patient vitals and medical history, ensuring accurate data collection.',
+  employment5Desc9:
+    'Support Family Medicine and Endocrine Clinics, administering medications.',
+  employment5Desc10:
+    'Conduct diagnostic tests like strep A and pregnancy tests, enhancing patient care.',
+  employment5Desc11:
+    'Educate patients on medication use and specimen collection, improving compliance.',
+  employment5Desc12:
+    'Coordinate comprehensive patient care in outpatient settings, managing vital signs assessment, diagnostic testing and clinical documentation for enhanced healthcare delivery.',
+};

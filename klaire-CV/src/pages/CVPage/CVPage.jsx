@@ -2,18 +2,13 @@ import css from './CVPage.module.css';
 import { useEffect, useRef } from 'react';
 
 import { useReactToPrint } from 'react-to-print';
-import {
-  employment1,
-  employment2,
-  employment3,
-  employmentHistory,
-  headerCV,
-  printBtn,
-} from '../../data/cv';
+import { headerCV, printBtn } from '../../data/cv';
 import { professionalCV, summaryQualification } from '../../data/cv';
 import Employment1 from '../../components/Employment/Employment1/Employment1';
 import Employment2 from '../../components/Employment/Employment2/Employment2';
 import Employment3 from '../../components/Employment/Employment3/Employment3';
+import Employment4 from '../../components/Employment/Employment4/Employment4';
+import Employment5 from '../../components/Employment/Employment5/Employment5';
 
 const CVPage = () => {
   const contentRef = useRef();
@@ -70,6 +65,8 @@ const CVPage = () => {
         <Employment1 />
         <Employment2 />
         <Employment3 />
+        <Employment4 />
+        <Employment5 />
       </div>
     </>
   );
