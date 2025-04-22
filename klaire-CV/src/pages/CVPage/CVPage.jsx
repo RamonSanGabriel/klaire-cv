@@ -9,6 +9,7 @@ import Employment2 from '../../components/Employment/Employment2/Employment2';
 import Employment3 from '../../components/Employment/Employment3/Employment3';
 import Employment4 from '../../components/Employment/Employment4/Employment4';
 import Employment5 from '../../components/Employment/Employment5/Employment5';
+import Employment6 from '../../components/Employment/Employmnet6/Employmnet6';
 
 const CVPage = () => {
   const contentRef = useRef();
@@ -67,6 +68,7 @@ const CVPage = () => {
         <Employment3 />
         <Employment4 />
         <Employment5 />
+        <Employment6 />
       </div>
     </>
   );

@@ -124,3 +124,30 @@ export const employment5 = {
   employment5Desc12:
     'Coordinate comprehensive patient care in outpatient settings, managing vital signs assessment, diagnostic testing and clinical documentation for enhanced healthcare delivery.',
 };
+
+export const employment6 = {
+  employment6Title: 'Staff Nurse',
+  employment6Duration: 'Jun 2014 - Feb 2018',
+  employment6Company: 'Al Zahra Private Hospital',
+  employment6Location: 'Dubai, U.A.E.',
+  employment6Desc1:
+    'Accommodate clients, assessed conditions, facilitated doctor consultations.',
+  employment6Desc2:
+    'Prepare consent forms, treatment rooms and equipment for procedures.',
+  employment6Desc3:
+    'Train in advanced aesthetic equipment, enhancing service quality.',
+  employment6Desc4:
+    'Coordinate comprehensive aesthetic medical procedures, including laser treatments, dermal fillers and PRP therapy while ensuring strict adherence to safety protocols.',
+  employment6Desc5:
+    'Manage pre and post-procedure patient care, including documentation, consent forms and clinical photography while operating specialized aesthetic equipment.',
+  employment6Desc6:
+    'Operate advanced aesthetic technologies including Nd:YAG, CO2 and Fraxel lasers, ensuring optimal treatment outcomes and patient satisfaction.',
+  employment6Desc7:
+    'Assist physicians in specialized procedures including botulinum toxin administration, thread lifting and radio frequency treatments.',
+  employment6Desc8:
+    'Record patient vitals and medical history, ensuring accurate data collection.',
+  employment6Desc9:
+    'Support Family Medicine and Endocrine Clinics, administering medications.',
+  employment6Desc10:
+    'Conduct diagnostic tests like strep A and pregnancy tests, enhancing patient care.',
+};
