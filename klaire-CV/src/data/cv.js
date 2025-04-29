@@ -127,27 +127,61 @@ export const employment5 = {
 
 export const employment6 = {
   employment6Title: 'Staff Nurse',
-  employment6Duration: 'Jun 2014 - Feb 2018',
-  employment6Company: 'Al Zahra Private Hospital',
+  employment6Duration: 'Sep 2011 - May 2014',
+  employment6Company: 'Dr. Taher Hassan Kahlil Clinic',
   employment6Location: 'Dubai, U.A.E.',
   employment6Desc1:
-    'Accommodate clients, assessed conditions, facilitated doctor consultations.',
+    'Assess patient vitals and history, ensuring accurate records for effective treatment plans.',
   employment6Desc2:
-    'Prepare consent forms, treatment rooms and equipment for procedures.',
+    'Prepare patients for procedures, enhancing clinic efficiency and patient comfort.',
   employment6Desc3:
-    'Train in advanced aesthetic equipment, enhancing service quality.',
+    'Administer medication and assist with minor treatments, improving patient recovery rates.',
   employment6Desc4:
-    'Coordinate comprehensive aesthetic medical procedures, including laser treatments, dermal fillers and PRP therapy while ensuring strict adherence to safety protocols.',
+    'Collaborate with healthcare team to tailor patient care, achieving positive health outcomes.',
   employment6Desc5:
-    'Manage pre and post-procedure patient care, including documentation, consent forms and clinical photography while operating specialized aesthetic equipment.',
+    'Maintain sterile environment and manage supplies, ensuring safety and operational readiness.',
   employment6Desc6:
-    'Operate advanced aesthetic technologies including Nd:YAG, CO2 and Fraxel lasers, ensuring optimal treatment outcomes and patient satisfaction.',
+    'Manage client communications, enhancing customer satisfaction and retention.',
   employment6Desc7:
-    'Assist physicians in specialized procedures including botulinum toxin administration, thread lifting and radio frequency treatments.',
+    'Streamline administrative processes, ensuring efficient and accurate operations.',
   employment6Desc8:
-    'Record patient vitals and medical history, ensuring accurate data collection.',
+    'Keep confidential client records, safeguarding sensitive information.',
   employment6Desc9:
-    'Support Family Medicine and Endocrine Clinics, administering medications.',
+    'Align marketing materials for events, boosting brand visibility.',
   employment6Desc10:
-    'Conduct diagnostic tests like strep A and pregnancy tests, enhancing patient care.',
+    'Organize sales meetings and exhibitions, driving service promotion.',
+};
+
+export const employment7 = {
+  employment7Title: 'Public Health Nurse',
+  employment7Duration: 'May 2009 - Jun 2011',
+  employment7Company: 'Makati Health Department',
+  employment7Location: 'Makati, Philippines',
+  employment7Desc1:
+    'Educate community on health promotion and disease prevention strategies.',
+  employment7Desc2:
+    'Provide primary care, ensuring timely referrals for specialized treatment.',
+  employment7Desc3:
+    'Lead comprehensive public health initiatives including immunization programs, family planning counseling and tuberculosis management while ensuring optimal patient care delivery.',
+  employment7Desc4:
+    'Administer primary healthcare services including medication management, wound care and diagnostic procedures while maintaining precise medical documentation.Collaborate with healthcare team to tailor patient care, achieving positive health outcomes.',
+  employment7Desc5:
+    'Implement national health programs, provide essential prenatal and postnatal care services, conduct health assessments and coordinating referrals to enhance community wellness.',
+};
+
+export const employment8 = {
+  employment8Title: 'Customer Care Representative',
+  employment8Duration: 'Jun 2008 - Sep 2008',
+  employment8Company: 'Maxicare Healthcare Philippines',
+  employment8Location: 'Manila, Philippines',
+  employment8Desc1:
+    'Efficiently manage customer inquiries, resolving issues and escalating when necessary.',
+  employment8Desc2:
+    'Facilitate client referrals to healthcare facilities, ensuring seamless service.',
+  employment8Desc3:
+    'Handle client coverage requests, improving customer satisfaction.',
+  employment8Desc4:
+    'Resolve complaints, contributing to improve client relations.',
+  employment8Desc5:
+    'Collaborate with supervisors to address complex client needs.',
 };

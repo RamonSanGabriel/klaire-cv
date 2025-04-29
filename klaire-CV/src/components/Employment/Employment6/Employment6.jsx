@@ -17,8 +17,6 @@ const Employment6 = () => {
     employment6Desc8,
     employment6Desc9,
     employment6Desc10,
-    employment6Desc11,
-    employment6Desc12,
   } = employment6;
   return (
     <>

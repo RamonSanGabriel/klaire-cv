@@ -1,0 +1,32 @@
+.educationWrapper {
+  margin-bottom: 1rem;
+
+  & li {
+    list-style: disc;
+    margin: 0 0.5rem;
+  }
+}
+
+.educationList {
+  margin: 1rem 0;
+}
+.educationItems {
+  padding: 0 1rem;
+}
+.title {
+  border-bottom: 1px double #000;
+  margin-bottom: 0.25rem;
+}
+.employmentContainer {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+
+  & h4 {
+    text-transform: capitalize;
+  }
+}
+.school,
+.certificate {
+  font-weight: 400;
+  font-size: 1rem;
+}
