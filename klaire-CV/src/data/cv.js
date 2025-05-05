@@ -1,3 +1,5 @@
+import { href } from 'react-router-dom';
+
 export const printBtn = {
   print: 'Print',
 };
@@ -240,3 +242,7 @@ export const skills = [
     skill: 'Communication',
   },
 ];
+
+export const linkedIn = {
+  href: 'https://linkedin.com/in/klaire-therese-sison-san-gabriel-2b254192',
+};

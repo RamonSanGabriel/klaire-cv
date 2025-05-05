@@ -1,7 +1,9 @@
-import { skills } from '../../data/cv';
+import { linkedIn, skills } from '../../data/cv';
 import css from './Skills.module.css';
+import { Link } from 'react-router-dom';
 
 const Skills = () => {
+  const { href } = linkedIn;
   return (
     <div className={css.skillWrapper}>
       <section className={css.skillSection}>
@@ -21,9 +23,9 @@ const Skills = () => {
           <p>
             <strong>LinkedIn:</strong>
           </p>
-          <a className={css.linkedIn}>
+          <Link className={css.linkedIn} to={href}>
             linkedin.com/in/klaire-therese-sison-san-gabriel-2b254192
-          </a>
+          </Link>
         </div>
       </section>
     </div>
