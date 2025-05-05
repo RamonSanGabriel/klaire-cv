@@ -13,6 +13,16 @@ const Skills = () => {
             </li>
           ))}
         </ul>
+        <div className={css.lang}>
+          <p>
+            <strong>Language:</strong>
+          </p>
+          <p>English (Fluent), Tagalog (Native)</p>
+          <p>
+            <strong>LinkedIn:</strong>
+          </p>
+          <p>linkedin.com/in/klaire-therese-sison-san-gabriel-2b254192</p>
+        </div>
       </section>
     </div>
   );

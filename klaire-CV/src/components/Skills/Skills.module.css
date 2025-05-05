@@ -10,7 +10,7 @@
 }
 
 .skillList {
-  margin: 1rem 0;
+  /* margin: 1rem 0; */
 }
 /* .educationItems {
   padding: 0 1rem;
@@ -22,6 +22,17 @@
 .skillContainer {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
+}
+
+.skillSection {
+  & p {
+    color: black;
+  }
+}
+
+.lang {
+  display: grid;
+  grid-template-columns: 1fr 7fr;
 }
 /* .school,
 .certificate {
