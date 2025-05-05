@@ -34,6 +34,12 @@
   display: grid;
   grid-template-columns: 1fr 7fr;
 }
+.linkedIn {
+  font-size: 0.875rem;
+  color: black;
+  font-weight: 400;
+  cursor: pointer;
+}
 /* .school,
 .certificate {
   font-weight: 400;

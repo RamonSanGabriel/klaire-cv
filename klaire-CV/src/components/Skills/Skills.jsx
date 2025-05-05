@@ -21,7 +21,9 @@ const Skills = () => {
           <p>
             <strong>LinkedIn:</strong>
           </p>
-          <p>linkedin.com/in/klaire-therese-sison-san-gabriel-2b254192</p>
+          <a className={css.linkedIn}>
+            linkedin.com/in/klaire-therese-sison-san-gabriel-2b254192
+          </a>
         </div>
       </section>
     </div>
