@@ -13,6 +13,7 @@ import Employment6 from '../../components/Employment/Employment6/Employment6';
 import Employment7 from '../../components/Employment/Employment7/Employment7';
 import Employment8 from '../../components/Employment/Employment8/Employment8';
 import Education from '../../components/Education/Education';
+import Skills from '../../components/Skills/Skills';
 
 const CVPage = () => {
   const contentRef = useRef();
@@ -75,6 +76,7 @@ const CVPage = () => {
         <Employment7 />
         <Employment8 />
         <Education />
+        <Skills />
       </div>
     </>
   );

@@ -185,3 +185,58 @@ export const employment8 = {
   employment8Desc5:
     'Collaborate with supervisors to address complex client needs.',
 };
+
+export const skills = [
+  {
+    id: 1,
+    skill: 'Aesthetic Procedures',
+  },
+  {
+    id: 2,
+    skill: 'Laser Therapy',
+  },
+  {
+    id: 3,
+    skill: 'Patient',
+  },
+  {
+    id: 4,
+    skill: 'Treatment Planning',
+  },
+  {
+    id: 5,
+    skill: 'Patient Education',
+  },
+  {
+    id: 6,
+    skill: 'Clinical Procedure',
+  },
+  {
+    id: 7,
+    skill: 'Multi-tasking',
+  },
+  {
+    id: 8,
+    skill: 'Documentation',
+  },
+  {
+    id: 9,
+    skill: 'Team Collaboration',
+  },
+  {
+    id: 10,
+    skill: 'Customer Service',
+  },
+  {
+    id: 11,
+    skill: 'Healthcare Administration',
+  },
+  {
+    id: 12,
+    skill: 'Problem-solving',
+  },
+  {
+    id: 13,
+    skill: 'Communication',
+  },
+];
